@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Freehand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div id="header">
+        <img src="../web/EasyShop/suggestions/shelf-logo-zip-file/png/logo-no-background.png" alt="no image" width=120px>
+        <div>
+            <ul id="navBar">
+                <li><a class="active" href="../web/EasyShop/SHELF.html">Home</a></li>
+                <li><a href="../web/EasyShop/shop.html">Shop</a></li>
+                <li> <a href="../web/EasyShop/about.html">About Us</a></li>
+                <li><a href="../web/EasyShop/Cart.html">Cart</i></a></li>
+                <button id="close">Close
+                </button>
+            </ul>
+        </div>
+        <div id="side">
+            <button id="ham">Menu</button>
+        </div>
+    </div>
+    <div class="form">
+        <h2>Login</h2>
+        <!-- <form action="login.php" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="emailID">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="phoneNO">Phone No:</label>
+            <input type="number" id="phone" name="phone" required><br>
+            <label for="passwordDETAILS">Password:</label>
+            <input type="password" id="password" name="password" required><br>
+            <input type="submit" value="Login">
+        </form> -->
+       
+        <form action="login.php" method="post">
+           <table> 
+                <tr>
+                    <td>
+                        <label for="username">USER:</label>
+                    </td>
+                    <td>
+                         <input type="text" name="username" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">PASSWORD:</label>
+                    </td>
+                    <td>
+                        <input type="password" name="password" required>
+                    </td>
+                </tr>
+                <tr>  
+                    <td>
+                        <label for="phone">Phone No:</label>
+                    </td>
+                    <td> 
+                        <input type="number" name="phone">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="emailID">Email:</label>
+                    </td>
+                    <td>
+                        <input type="email" id="email" name="email" required>
+                    </td>
+                </tr>
+                <!-- <tr>
+                    <td>
+                        <label for="AREA_OF_INTEREST">AREA OF INTEREST:</label>
+                    </td>
+                    <td>
+                        <input type="checkbox">ART & MUSIC
+                        <input type="checkbox">SPORTS
+                        <input type="checkbox">GAMING
+                        <input type="checkbox">CODING
+                    </td>
+                </tr> -->
+            </table>
+            <a href="../web/EasyShop/SHELF.html"><input type="submit" value="SUBMIT"></a>
+            
+        </form>
+    </div>
+    <script src="../web/EasyShop/script.js"></script>
+</body>
+<FOOTER>Copyrights SHELF DIGITALS,2023</FOOTER>
+</html>
